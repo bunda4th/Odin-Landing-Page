@@ -119,6 +119,8 @@ body {
 .image-text {
     text-align: center;
     margin-top: 8px;
+    width: 200px;
+    
 }
 
 .blockquote {
@@ -128,11 +130,21 @@ body {
 }
 
 .blockquote-text {
+    line-height: 1.4;
     max-width: 800px;
     margin: 0 auto;
     text-align: justify;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    color: #1F2937;
+}
+
+.blockquote-author {
+    max-width: 800px;
+    margin: 16px auto 0 auto;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
     color: #1F2937;
 }
