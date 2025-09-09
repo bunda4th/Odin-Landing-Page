@@ -87,7 +87,7 @@ body {
     color: #F9FAF8;
     padding: 12px 36px;
     border: none;
-    border-radius: 8px;
+    border-radius: 16px;
     text-decoration: none;
     font-size: 18px;
 }
@@ -148,3 +148,39 @@ body {
     font-weight: 600;
     color: #1F2937;
 }
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    padding: 64px 48px;
+    margin: 120px auto 120px auto;
+    border-radius: 16px;
+    gap: 200px;
+}
+
+.cta div p,
+.cta div h2 {
+    margin: 0;
+}
+
+.cta div p {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.cta-button {
+    color: #F9FAF8;
+    padding: 12px 36px;
+    border: 2px solid #F9FAF8;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
