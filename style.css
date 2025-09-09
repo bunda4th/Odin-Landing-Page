@@ -152,26 +152,31 @@ body {
 .cta-container {
     display: flex;
     justify-content: center;
+    padding: 120px 32px;
 }
 
 .cta {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 64px 48px;
-    margin: 120px auto 120px auto;
     border-radius: 16px;
-    gap: 200px;
+    gap: 64px;
+    max-width: 1000px;
+    width: 100%;
 }
 
-.cta div p,
-.cta div h2 {
+.cta-text h2{
     margin: 0;
+    font-size: 36px;
+    font-weight: 900;
 }
 
-.cta div p {
-    margin-top: 8px;
+.cta-text p {
+    margin-top: 8px 0 0 0;
     font-size: 18px;
 }
 
@@ -182,5 +187,6 @@ body {
     border-radius: 16px;
     text-decoration: none;
     font-size: 18px;
+    font-weight: 500;
 }
 
