@@ -6,14 +6,16 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px;
 }
 
 .header-container,
-.hero-container {
+.hero-container,
+.footer-container {
     background-color: #1F2937;
 }
 
@@ -176,7 +178,7 @@ body {
 }
 
 .cta-text p {
-    margin-top: 8px 0 0 0;
+    margin: 8px 0 0 0;
     font-size: 18px;
 }
 
@@ -188,5 +190,12 @@ body {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* footer section */
+
+.footer {
+    text-align: center;
+    color: #F9FAF8;
 }
 
